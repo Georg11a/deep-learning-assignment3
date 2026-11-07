@@ -1,0 +1,567 @@
+{
+ "test": {
+  "L-A": {
+   "mean": {
+    "actor_correct": 0.568848228946751,
+    "in_listener_plurality": 0.3926812104152006,
+    "ce_to_votes": 2.1468408490232886,
+    "brier_to_votes": 0.4067199387206679,
+    "jaccard": 0.39195402298850573,
+    "set_recall": 0.4840292438814606,
+    "set_size": 1.6267886464930799,
+    "max_prob": 0.6076504588127136,
+    "ece_vs_actor": 0.04989084977514163,
+    "awareness_rho_maxprob_vs_listener_share": 0.06146214909969069
+   },
+   "groups": {
+    "low": {
+     "n": 308.0,
+     "actor_correct": 0.5086580086580087,
+     "in_listener_plurality": 0.37878787878787884,
+     "ce_to_votes": 2.4855886590871283,
+     "brier_to_votes": 0.3119338782075962,
+     "jaccard": 0.34319985569985567,
+     "set_recall": 0.3965548340548341,
+     "set_size": 1.656926406926407,
+     "max_prob": 0.5875515143076578
+    },
+    "mid": {
+     "n": 564.0,
+     "actor_correct": 0.5762411347517732,
+     "in_listener_plurality": 0.33865248226950356,
+     "ce_to_votes": 2.298526236832911,
+     "brier_to_votes": 0.3789450206682754,
+     "jaccard": 0.3747241922773838,
+     "set_recall": 0.44473995271867617,
+     "set_size": 1.625886524822695,
+     "max_prob": 0.6063141624132792
+    },
+    "high": {
+     "n": 549.0,
+     "actor_correct": 0.5950212507589557,
+     "in_listener_plurality": 0.45598057073466913,
+     "ce_to_votes": 1.800966742968117,
+     "brier_to_votes": 0.4884306134375633,
+     "jaccard": 0.4370066788099575,
+     "set_recall": 0.5734669095324832,
+     "set_size": 1.6108075288403159,
+     "max_prob": 0.6202992002169291
+    }
+   }
+  },
+  "L-B": {
+   "mean": {
+    "actor_correct": 0.27633122214403,
+    "in_listener_plurality": 0.6995073891625617,
+    "ce_to_votes": 1.47825154391912,
+    "brier_to_votes": 0.21072229660959704,
+    "jaccard": 0.5717335209946047,
+    "set_recall": 0.6256939557432167,
+    "set_size": 1.3574947220267415,
+    "max_prob": 0.7054556409517924,
+    "ece_vs_actor": 0.4315451463147449,
+    "awareness_rho_maxprob_vs_listener_share": 0.30682024565761873
+   },
+   "groups": {
+    "low": {
+     "n": 308.0,
+     "actor_correct": 0.15151515151515152,
+     "in_listener_plurality": 0.551948051948052,
+     "ce_to_votes": 2.0798933815698444,
+     "brier_to_votes": 0.26629158885301113,
+     "jaccard": 0.4070887445887446,
+     "set_recall": 0.43777056277056275,
+     "set_size": 1.4567099567099566,
+     "max_prob": 0.6488188703854879
+    },
+    "mid": {
+     "n": 564.0,
+     "actor_correct": 0.21217494089834513,
+     "in_listener_plurality": 0.6430260047281323,
+     "ce_to_votes": 1.659676238276292,
+     "brier_to_votes": 0.2300550113329022,
+     "jaccard": 0.5059495665878644,
+     "set_recall": 0.5495468873128447,
+     "set_size": 1.4042553191489364,
+     "max_prob": 0.6775838534037272
+    },
+    "high": {
+     "n": 549.0,
+     "actor_correct": 0.41226472374013357,
+     "in_listener_plurality": 0.8403157255616271,
+     "ce_to_votes": 0.9543367650231859,
+     "brier_to_votes": 0.15968587927823874,
+     "jaccard": 0.7316838696620117,
+     "set_recall": 0.8093503339404978,
+     "set_size": 1.2537947783849424,
+     "max_prob": 0.7658633589744568
+    }
+   }
+  },
+  "L-C": {
+   "mean": {
+    "actor_correct": 0.27891156462585037,
+    "in_listener_plurality": 0.7056063804832277,
+    "ce_to_votes": 1.3030832778250845,
+    "brier_to_votes": 0.15500790750547924,
+    "jaccard": 0.6038861521620142,
+    "set_recall": 0.6929196966142778,
+    "set_size": 1.5969974196575183,
+    "max_prob": 0.5166100859642029,
+    "ece_vs_actor": 0.24377995004487266,
+    "awareness_rho_maxprob_vs_listener_share": 0.3372821193112312
+   },
+   "groups": {
+    "low": {
+     "n": 308.0,
+     "actor_correct": 0.1558441558441558,
+     "in_listener_plurality": 0.5670995670995671,
+     "ce_to_votes": 1.689101327638636,
+     "brier_to_votes": 0.12732700941036523,
+     "jaccard": 0.4680916305916305,
+     "set_recall": 0.5163239538239538,
+     "set_size": 1.721861471861472,
+     "max_prob": 0.4671002924442291
+    },
+    "mid": {
+     "n": 564.0,
+     "actor_correct": 0.21040189125295508,
+     "in_listener_plurality": 0.6418439716312057,
+     "ce_to_votes": 1.4306361577568876,
+     "brier_to_votes": 0.14692670704502656,
+     "jaccard": 0.5605397951142632,
+     "set_recall": 0.6352442868400315,
+     "set_size": 1.6820330969267137,
+     "max_prob": 0.49316786726315814
+    },
+    "high": {
+     "n": 549.0,
+     "actor_correct": 0.4183363691560413,
+     "in_listener_plurality": 0.8488160291438979,
+     "ce_to_votes": 0.9554814861600375,
+     "brier_to_votes": 0.17883944425045273,
+     "jaccard": 0.7246002833434528,
+     "set_recall": 0.8512446873102611,
+     "set_size": 1.439587128111718,
+     "max_prob": 0.5684688488642374
+    }
+   }
+  },
+  "L-A@ep60": {
+   "mean": {
+    "actor_correct": 0.5836265540699038,
+    "in_listener_plurality": 0.3863476425052779,
+    "ce_to_votes": 2.3709895264082648,
+    "brier_to_votes": 0.43845693242908834,
+    "jaccard": 0.3824771287825475,
+    "set_recall": 0.46805848776292125,
+    "set_size": 1.6101337086558762,
+    "max_prob": 0.635726809501648,
+    "ece_vs_actor": 0.06293314000460118,
+    "awareness_rho_maxprob_vs_listener_share": 0.050923469012584065
+   },
+   "groups": {
+    "low": {
+     "n": 308.0,
+     "actor_correct": 0.5541125541125541,
+     "in_listener_plurality": 0.37662337662337664,
+     "ce_to_votes": 2.7270009412066316,
+     "brier_to_votes": 0.34324756520893906,
+     "jaccard": 0.3434704184704185,
+     "set_recall": 0.3932178932178932,
+     "set_size": 1.645021645021645,
+     "max_prob": 0.6160401701927185
+    },
+    "mid": {
+     "n": 564.0,
+     "actor_correct": 0.5904255319148937,
+     "in_listener_plurality": 0.33569739952718675,
+     "ce_to_votes": 2.547555764393354,
+     "brier_to_votes": 0.411671528304093,
+     "jaccard": 0.35853033884948776,
+     "set_recall": 0.424645390070922,
+     "set_size": 1.6052009456264775,
+     "max_prob": 0.6380984783172607
+    },
+    "high": {
+     "n": 549.0,
+     "actor_correct": 0.5931997571341835,
+     "in_listener_plurality": 0.44383727990285365,
+     "ce_to_votes": 1.9898695373709474,
+     "brier_to_votes": 0.5193885408631564,
+     "jaccard": 0.42896174863387976,
+     "set_recall": 0.5546448087431693,
+     "set_size": 1.5956284153005464,
+     "max_prob": 0.6443348924318949
+    }
+   }
+  },
+  "L-B@ep60": {
+   "mean": {
+    "actor_correct": 0.2831339432324654,
+    "in_listener_plurality": 0.6995073891625615,
+    "ce_to_votes": 1.4828295753811547,
+    "brier_to_votes": 0.20876338246553638,
+    "jaccard": 0.5814371725701776,
+    "set_recall": 0.6370122761748377,
+    "set_size": 1.3802486511846117,
+    "max_prob": 0.7074837883313497,
+    "ece_vs_actor": 0.4243498588675152,
+    "awareness_rho_maxprob_vs_listener_share": 0.30202460451391244
+   },
+   "groups": {
+    "low": {
+     "n": 308.0,
+     "actor_correct": 0.16017316017316016,
+     "in_listener_plurality": 0.551948051948052,
+     "ce_to_votes": 2.108946619062895,
+     "brier_to_votes": 0.27089162102661285,
+     "jaccard": 0.41533189033189033,
+     "set_recall": 0.4465187590187591,
+     "set_size": 1.475108225108225,
+     "max_prob": 0.6549250682195028
+    },
+    "mid": {
+     "n": 564.0,
+     "actor_correct": 0.22163120567375885,
+     "in_listener_plurality": 0.6436170212765957,
+     "ce_to_votes": 1.6648792159788852,
+     "brier_to_votes": 0.22791580385662422,
+     "jaccard": 0.518607171000788,
+     "set_recall": 0.5641252955082742,
+     "set_size": 1.4385342789598108,
+     "max_prob": 0.6780829230944315
+    },
+    "high": {
+     "n": 549.0,
+     "actor_correct": 0.41530054644808745,
+     "in_listener_plurality": 0.8397085610200364,
+     "ce_to_votes": 0.9445416942316168,
+     "brier_to_votes": 0.15423248421164734,
+     "jaccard": 0.7391722323416312,
+     "set_recall": 0.8187613843351548,
+     "set_size": 1.2671523982999393,
+     "max_prob": 0.767174502213796
+    }
+   }
+  },
+  "L-C@ep60": {
+   "mean": {
+    "actor_correct": 0.2810227539291579,
+    "in_listener_plurality": 0.7074829931972789,
+    "ce_to_votes": 1.2986846784743709,
+    "brier_to_votes": 0.15351788981086326,
+    "jaccard": 0.6050785831574009,
+    "set_recall": 0.6924700914848697,
+    "set_size": 1.5906638517475955,
+    "max_prob": 0.5188062985738119,
+    "ece_vs_actor": 0.24299384165601554,
+    "awareness_rho_maxprob_vs_listener_share": 0.3386957019199584
+   },
+   "groups": {
+    "low": {
+     "n": 308.0,
+     "actor_correct": 0.16017316017316016,
+     "in_listener_plurality": 0.5703463203463203,
+     "ce_to_votes": 1.6882455344011957,
+     "brier_to_votes": 0.12731924422070293,
+     "jaccard": 0.46556637806637813,
+     "set_recall": 0.512085137085137,
+     "set_size": 1.7067099567099566,
+     "max_prob": 0.4690660039583842
+    },
+    "mid": {
+     "n": 564.0,
+     "actor_correct": 0.21453900709219856,
+     "in_listener_plurality": 0.6471631205673759,
+     "ce_to_votes": 1.4241457794575132,
+     "brier_to_votes": 0.1451379032134997,
+     "jaccard": 0.5617218282111899,
+     "set_recall": 0.6355397951142632,
+     "set_size": 1.6784869976359336,
+     "max_prob": 0.4955320755640666
+    },
+    "high": {
+     "n": 549.0,
+     "actor_correct": 0.4171220400728597,
+     "in_listener_plurality": 0.8463873709775349,
+     "ce_to_votes": 0.9512442329735439,
+     "brier_to_votes": 0.1768248028940735,
+     "jaccard": 0.7278890912770694,
+     "set_recall": 0.8521554341226473,
+     "set_size": 1.435336976320583,
+     "max_prob": 0.5706218282381693
+    }
+   }
+  },
+  "P0 uniform": {
+   "mean": {
+    "actor_correct": 0.17733990147783252,
+    "in_listener_plurality": 0.16467276565798733,
+    "ce_to_votes": 1.7917594692280545,
+    "brier_to_votes": 0.35321198795487907,
+    "jaccard": 0.31538822425521934,
+    "set_recall": 1.0,
+    "set_size": 6.0,
+    "max_prob": 0.16666666666666669,
+    "ece_vs_actor": 0.010673234811165833,
+    "awareness_rho_maxprob_vs_listener_share": NaN
+   },
+   "groups": {
+    "low": {
+     "n": 308.0,
+     "actor_correct": 0.13636363636363635,
+     "in_listener_plurality": 0.1396103896103896,
+     "ce_to_votes": 1.7917594692280545,
+     "brier_to_votes": 0.1438688726810494,
+     "jaccard": 0.43235930735930744,
+     "set_recall": 1.0,
+     "set_size": 6.0,
+     "max_prob": 0.16666666666666669
+    },
+    "mid": {
+     "n": 564.0,
+     "actor_correct": 0.17553191489361702,
+     "in_listener_plurality": 0.15425531914893617,
+     "ce_to_votes": 1.791759469228055,
+     "brier_to_votes": 0.2713864106707338,
+     "jaccard": 0.3472222222222222,
+     "set_recall": 1.0,
+     "set_size": 6.0,
+     "max_prob": 0.16666666666666666
+    },
+    "high": {
+     "n": 549.0,
+     "actor_correct": 0.20218579234972678,
+     "in_listener_plurality": 0.1894353369763206,
+     "ce_to_votes": 1.791759469228055,
+     "brier_to_votes": 0.5547189189067872,
+     "jaccard": 0.21706132361870065,
+     "set_recall": 1.0,
+     "set_size": 6.0,
+     "max_prob": 0.16666666666666663
+    }
+   }
+  },
+  "P1 vote prior": {
+   "mean": {
+    "actor_correct": 0.11330049261083744,
+    "in_listener_plurality": 0.5728360309641097,
+    "ce_to_votes": 1.5840051753463467,
+    "brier_to_votes": 0.26785972634773453,
+    "jaccard": 0.4412972085385879,
+    "set_recall": 0.4412972085385879,
+    "set_size": 1.0,
+    "max_prob": 0.429422478946572,
+    "ece_vs_actor": 0.3161219863357345,
+    "awareness_rho_maxprob_vs_listener_share": NaN
+   },
+   "groups": {
+    "low": {
+     "n": 308.0,
+     "actor_correct": 0.05194805194805195,
+     "in_listener_plurality": 0.5454545454545454,
+     "ce_to_votes": 1.7587146623210796,
+     "brier_to_votes": 0.13878972442111137,
+     "jaccard": 0.32007575757575757,
+     "set_recall": 0.32007575757575757,
+     "set_size": 1.0,
+     "max_prob": 0.42942247894657193
+    },
+    "mid": {
+     "n": 564.0,
+     "actor_correct": 0.06205673758865248,
+     "in_listener_plurality": 0.5283687943262412,
+     "ce_to_votes": 1.6460094969623296,
+     "brier_to_votes": 0.21519739126708232,
+     "jaccard": 0.37943262411347517,
+     "set_recall": 0.37943262411347517,
+     "set_size": 1.0,
+     "max_prob": 0.42942247894657193
+    },
+    "high": {
+     "n": 549.0,
+     "actor_correct": 0.20036429872495445,
+     "in_listener_plurality": 0.6338797814207651,
+     "ce_to_votes": 1.422291223835177,
+     "brier_to_votes": 0.3943717802254901,
+     "jaccard": 0.5728597449908925,
+     "set_recall": 0.5728597449908925,
+     "set_size": 1.0,
+     "max_prob": 0.42942247894657193
+    }
+   }
+  }
+ },
+ "mean_kl_prediction_to_vote_prior": {
+  "L-A": 0.9937135873102431,
+  "L-B": 0.5317861108289438,
+  "L-C": 0.28182525333202085
+ },
+ "paired_actor_differences": {
+  "L-C minus L-A": {
+   "actor_correct": {
+    "mean": -0.28997018764951255,
+    "ci95": [
+     -0.3195090579056823,
+     -0.2552772668806424
+    ],
+    "n_actors": 18
+   },
+   "in_listener_plurality": {
+    "mean": 0.3128012790460048,
+    "ci95": [
+     0.23038215105725657,
+     0.3955520393811533
+    ],
+    "n_actors": 18
+   },
+   "ce_to_votes": {
+    "mean": -0.8436711761531863,
+    "ci95": [
+     -0.9320192671428297,
+     -0.7464915591873349
+    ],
+    "n_actors": 18
+   },
+   "jaccard": {
+    "mean": 0.2118495077355837,
+    "ci95": [
+     0.17433651742459763,
+     0.25203352086263475
+    ],
+    "n_actors": 18
+   },
+   "max_prob": {
+    "mean": -0.09110589601375438,
+    "ci95": [
+     -0.12176217841053448,
+     -0.05646708487636512
+    ],
+    "n_actors": 18
+   }
+  },
+  "L-C minus L-B": {
+   "actor_correct": {
+    "mean": 0.002584538449517362,
+    "ci95": [
+     -0.0035161744022503224,
+     0.008444829119934614
+    ],
+    "n_actors": 18
+   },
+   "in_listener_plurality": {
+    "mean": 0.006115739238102093,
+    "ci95": [
+     -6.1679056923619804e-18,
+     0.012721338670705736
+    ],
+    "n_actors": 18
+   },
+   "ce_to_votes": {
+    "mean": -0.17521702957443516,
+    "ci95": [
+     -0.21410462401470354,
+     -0.1378241586048101
+    ],
+    "n_actors": 18
+   },
+   "jaccard": {
+    "mean": 0.03214028834633617,
+    "ci95": [
+     0.01985301689767231,
+     0.04408520862634788
+    ],
+    "n_actors": 18
+   },
+   "max_prob": {
+    "mean": -0.18880974528966124,
+    "ci95": [
+     -0.20074208552638692,
+     -0.1770551161771571
+    ],
+    "n_actors": 18
+   }
+  },
+  "L-B minus L-A": {
+   "actor_correct": {
+    "mean": -0.29255472609902994,
+    "ci95": [
+     -0.3256067654801832,
+     -0.256206273215767
+    ],
+    "n_actors": 18
+   },
+   "in_listener_plurality": {
+    "mean": 0.3066855398079027,
+    "ci95": [
+     0.22346753398968594,
+     0.38960970464135003
+    ],
+    "n_actors": 18
+   },
+   "ce_to_votes": {
+    "mean": -0.6684541465787512,
+    "ci95": [
+     -0.7758004331391147,
+     -0.5605894316090776
+    ],
+    "n_actors": 18
+   },
+   "jaccard": {
+    "mean": 0.17970921938924753,
+    "ci95": [
+     0.1360234747216112,
+     0.22556918073136428
+    ],
+    "n_actors": 18
+   },
+   "max_prob": {
+    "mean": 0.09770384927590688,
+    "ci95": [
+     0.05632539043823877,
+     0.1426315897868739
+    ],
+    "n_actors": 18
+   }
+  },
+  "L-C minus P1 vote prior": {
+   "ce_to_votes": {
+    "mean": -0.28086097511195335,
+    "ci95": [
+     -0.31721187411888674,
+     -0.2424321061408339
+    ],
+    "n_actors": 18
+   }
+  }
+ },
+ "replication_of_saved_D2": {
+  "7": {
+   "best_epoch": 46,
+   "max_abs_prob_diff_vs_saved_D2": 0.26161688566207886,
+   "top1_changed_vs_saved_D2": 119
+  },
+  "11": {
+   "best_epoch": 35,
+   "max_abs_prob_diff_vs_saved_D2": 0.6677680015563965,
+   "top1_changed_vs_saved_D2": 312
+  },
+  "23": {
+   "best_epoch": 47,
+   "max_abs_prob_diff_vs_saved_D2": 0.48133039474487305,
+   "top1_changed_vs_saved_D2": 157
+  }
+ },
+ "best_epochs": {
+  "L-A_s7": 30,
+  "L-A_s11": 27,
+  "L-A_s23": 36,
+  "L-B_s7": 22,
+  "L-B_s11": 37,
+  "L-B_s23": 35,
+  "L-C_s7": 36,
+  "L-C_s11": 42,
+  "L-C_s23": 44
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "L-A": {
+  "mean_P_sad_on_neutral": 0.161,
+  "rho_loud_vs_P_sad": [
+   -0.41,
+   [
+    -0.74,
+    0.06
+   ]
+  ]
+ },
+ "L-B": {
+  "mean_P_sad_on_neutral": 0.05,
+  "rho_loud_vs_P_sad": [
+   -0.33,
+   [
+    -0.69,
+    0.16
+   ]
+  ]
+ },
+ "L-C": {
+  "mean_P_sad_on_neutral": 0.113,
+  "rho_loud_vs_P_sad": [
+   -0.52,
+   [
+    -0.83,
+    -0.08
+   ]
+  ]
+ },
+ "listeners": {
+  "mean_sad_vote_share_on_neutral": 0.067,
+  "rho_loud_vs_sad_votes": [
+   -0.61,
+   [
+    -0.82,
+    -0.23
+   ]
+  ]
+ }
+}

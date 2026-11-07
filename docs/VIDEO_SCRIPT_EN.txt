@@ -1,0 +1,28 @@
+HW3 video script — target 2:45–2:55 at a measured pace
+Practice with a timer. Do not exceed 3 minutes; filenames and timing notes are not spoken.
+
+0:00–0:25 — Baseline architecture (hw3/figures/fig1_architecture.png; explain the concat branch)
+My HW2 model classifies six acted emotions from audio. It divides each recording into eight segments, extracts acoustic features, and passes them through a shared MLP. The segment representations are concatenated in order. My question was: can a better aggregation strategy improve classification while reducing sensitivity to recording volume?
+
+0:25–0:55 — Initial hypothesis and failure
+I first tested attention pooling, including a scorer with two amplitude-related features centered within each utterance. Attention reduced test accuracy from about fifty-five to fifty-two percent and did not solve gain sensitivity. This was a failed hypothesis in the tested setup, not evidence that attention never works.
+
+0:55–1:25 — Path-swap diagram (draw clean/changed representations crossed with clean/changed weights)
+To investigate, I independently swapped representations and attention weights between original and volume-adjusted recordings. In many correct-to-wrong events, replacing only the representation already reproduced the error. Stable attention weights were therefore insufficient. The next intervention moved earlier: centering two input columns before the encoder, while retaining the original positional readout.
+
+1:25–1:55 — Main gain results (hw3/level_tradeoff/results/test-tradeoff.png)
+This simple model, B, reduced average prediction flips under plus or minus six decibels from thirty-one percent to roughly zero point zero three percent. Clean accuracy stayed near fifty-four and a half percent. Stability does not mean correctness: the model can still give the same wrong answer.
+
+1:55–2:25 — C and the inference check
+I then added a separate overall-level branch and randomly disabled it during training. Increasing the dropout probability steadily reduced gain sensitivity. But accuracy did not clearly improve over B. Turning off the selected model's branch at inference did not reduce validation accuracy, so its differences from B cannot simply be credited to using absolute level.
+
+2:25–2:55 — Lesson and separately scoped follow-up (one slide)
+The contribution is controlled diagnosis and revision, rather than inventing normalization. A later study used three neutral enrollment recordings per speaker. Its benefit over a retrained B persisted without shared enrollment sentences. However, the neutral-to-sad rate did not decrease versus A, listeners showed a similar loudness association, and query-only gain robustness remains untested. Personal calibration is a promising extension, not evidence that speaker bias is solved.
+
+Recording notes
+- Use the current main-study plot, not legacy figures labelled exactly zero flips.
+- Explain 2×2 results as sufficiency, not additive causal shares.
+- If speech is slow, omit the personal-reference paragraph and end with the lesson; it remains documented in the repository.
+- Original gain and personal-reference accuracy use different query sets. Do not put them on a single unqualified ranking.
+- The personal-reference extension gets at most one slide. Its sentence-overlap check is post-hoc; detailed intervals belong in the repository.
+- 1001_DFA_NEU_XX.wav and 1002_DFA_NEU_XX.wav are enrollment clips in the personal-reference study. Do not demonstrate them as D2/D3 evaluation predictions. Label any use as historical A/B examples or enrollment.

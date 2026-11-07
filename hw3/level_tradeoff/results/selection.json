@@ -1,0 +1,31 @@
+{
+  "rule": "max mean validation clean accuracy; tie lower gain flip, then higher p",
+  "selected": {
+    "p": 0.75,
+    "val_accuracy": 0.5942622950819673,
+    "gain_flip": 0.001138433515482696
+  },
+  "candidates": [
+    {
+      "p": 0.0,
+      "val_accuracy": 0.5883424408014571,
+      "gain_flip": 0.11247723132969034
+    },
+    {
+      "p": 0.25,
+      "val_accuracy": 0.5938069216757742,
+      "gain_flip": 0.01115664845173042
+    },
+    {
+      "p": 0.5,
+      "val_accuracy": 0.5892531876138434,
+      "gain_flip": 0.003642987249544627
+    },
+    {
+      "p": 0.75,
+      "val_accuracy": 0.5942622950819673,
+      "gain_flip": 0.001138433515482696
+    }
+  ],
+  "frozen_before_test": true
+}

@@ -1,0 +1,38 @@
+{
+ "utc": "2026-11-07T20:18:19.417824+00:00",
+ "rule": "All conditions reported; no test-based choice.",
+ "best_epochs": {
+  "L-A_s7": 30,
+  "L-A_s11": 27,
+  "L-A_s23": 36,
+  "L-B_s7": 22,
+  "L-B_s11": 37,
+  "L-B_s23": 35,
+  "L-C_s7": 36,
+  "L-C_s11": 42,
+  "L-C_s23": 44
+ },
+ "replication": {
+  "7": {
+   "best_epoch": 46,
+   "max_abs_prob_diff_vs_saved_D2": 0.26161688566207886,
+   "top1_changed_vs_saved_D2": 119,
+   "test_acc_rerun": 0.5840957072484166,
+   "test_acc_saved_D2": 0.5763546798029556
+  },
+  "11": {
+   "best_epoch": 35,
+   "max_abs_prob_diff_vs_saved_D2": 0.6677680015563965,
+   "top1_changed_vs_saved_D2": 312,
+   "test_acc_rerun": 0.5728360309641097,
+   "test_acc_saved_D2": 0.5503166783954961
+  },
+  "23": {
+   "best_epoch": 47,
+   "max_abs_prob_diff_vs_saved_D2": 0.48133039474487305,
+   "top1_changed_vs_saved_D2": 157,
+   "test_acc_rerun": 0.573539760731879,
+   "test_acc_saved_D2": 0.5679099225897255
+  }
+ }
+}

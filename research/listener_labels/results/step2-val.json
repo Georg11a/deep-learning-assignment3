@@ -1,0 +1,394 @@
+{
+ "L-A": {
+  "mean": {
+   "actor_correct": 0.5914893617021276,
+   "in_listener_plurality": 0.38959810874704487,
+   "ce_to_votes": 2.244769196797207,
+   "brier_to_votes": 0.42138323195684785,
+   "jaccard": 0.37208037825059104,
+   "set_recall": 0.46682427107959024,
+   "set_size": 1.6836879432624112,
+   "max_prob": 0.5962506532669067,
+   "ece_vs_actor": 0.05294532278468986,
+   "awareness_rho_maxprob_vs_listener_share": 0.04315430561183805
+  },
+  "groups": {
+   "low": {
+    "n": 152.0,
+    "actor_correct": 0.543859649122807,
+    "in_listener_plurality": 0.4057017543859649,
+    "ce_to_votes": 2.600185061617928,
+    "brier_to_votes": 0.3321242849929364,
+    "jaccard": 0.3288011695906432,
+    "set_recall": 0.3826754385964912,
+    "set_size": 1.6885964912280702,
+    "max_prob": 0.5973490079243978
+   },
+   "mid": {
+    "n": 281.0,
+    "actor_correct": 0.5954922894424673,
+    "in_listener_plurality": 0.3475682087781731,
+    "ce_to_votes": 2.3474556827778614,
+    "brier_to_votes": 0.3779038808332922,
+    "jaccard": 0.3670620798734678,
+    "set_recall": 0.45116646896006324,
+    "set_size": 1.723606168446026,
+    "max_prob": 0.5836667815844218
+   },
+   "high": {
+    "n": 272.0,
+    "actor_correct": 0.613970588235294,
+    "in_listener_plurality": 0.4240196078431373,
+    "ce_to_votes": 1.9400702482188492,
+    "brier_to_votes": 0.5161812378547657,
+    "jaccard": 0.4014501633986928,
+    "set_recall": 0.5300245098039215,
+    "set_size": 1.6397058823529411,
+    "max_prob": 0.6086370746294657
+   }
+  }
+ },
+ "L-B": {
+  "mean": {
+   "actor_correct": 0.31394799054373523,
+   "in_listener_plurality": 0.6737588652482268,
+   "ce_to_votes": 1.4926320011703311,
+   "brier_to_votes": 0.21767240815306868,
+   "jaccard": 0.5549251379038612,
+   "set_recall": 0.6231678486997635,
+   "set_size": 1.4108747044917258,
+   "max_prob": 0.6732309261957804,
+   "ece_vs_actor": 0.36006327379257125,
+   "awareness_rho_maxprob_vs_listener_share": 0.25074494409608655
+  },
+  "groups": {
+   "low": {
+    "n": 152.0,
+    "actor_correct": 0.20175438596491227,
+    "in_listener_plurality": 0.5153508771929824,
+    "ce_to_votes": 2.069497018284267,
+    "brier_to_votes": 0.26182289242517476,
+    "jaccard": 0.40058479532163743,
+    "set_recall": 0.430921052631579,
+    "set_size": 1.4714912280701753,
+    "max_prob": 0.626655121644338
+   },
+   "mid": {
+    "n": 281.0,
+    "actor_correct": 0.23013048635824437,
+    "in_listener_plurality": 0.6298932384341637,
+    "ce_to_votes": 1.6528023735820299,
+    "brier_to_votes": 0.22839574974575447,
+    "jaccard": 0.47933965994464206,
+    "set_recall": 0.5391459074733095,
+    "set_size": 1.4578884934756822,
+    "max_prob": 0.6531514326731364
+   },
+   "high": {
+    "n": 272.0,
+    "actor_correct": 0.463235294117647,
+    "in_listener_plurality": 0.8075980392156863,
+    "ce_to_votes": 1.004796128931341,
+    "brier_to_votes": 0.181921920664448,
+    "jaccard": 0.7192606209150326,
+    "set_recall": 0.8174019607843137,
+    "set_size": 1.3284313725490196,
+    "max_prob": 0.7200024922688802
+   }
+  }
+ },
+ "L-C": {
+  "mean": {
+   "actor_correct": 0.3016548463356974,
+   "in_listener_plurality": 0.6732860520094562,
+   "ce_to_votes": 1.3375332957333235,
+   "brier_to_votes": 0.16987057745829495,
+   "jaccard": 0.5666509062253743,
+   "set_recall": 0.6756501182033098,
+   "set_size": 1.6335697399527185,
+   "max_prob": 0.4879588186740875,
+   "ece_vs_actor": 0.19253031869306628,
+   "awareness_rho_maxprob_vs_listener_share": 0.279742635763443
+  },
+  "groups": {
+   "low": {
+    "n": 152.0,
+    "actor_correct": 0.19078947368421054,
+    "in_listener_plurality": 0.5065789473684211,
+    "ce_to_votes": 1.7003549100027426,
+    "brier_to_votes": 0.12883320273780133,
+    "jaccard": 0.4672149122807017,
+    "set_recall": 0.5182748538011696,
+    "set_size": 1.7478070175438596,
+    "max_prob": 0.4493844211101532
+   },
+   "mid": {
+    "n": 281.0,
+    "actor_correct": 0.23013048635824437,
+    "in_listener_plurality": 0.6429418742586003,
+    "ce_to_votes": 1.4342311852423653,
+    "brier_to_votes": 0.14943447875515461,
+    "jaccard": 0.5178924476077501,
+    "set_recall": 0.6045867931988929,
+    "set_size": 1.6856465005931198,
+    "max_prob": 0.47003310918807983
+   },
+   "high": {
+    "n": 272.0,
+    "actor_correct": 0.4375,
+    "in_listener_plurality": 0.7977941176470589,
+    "ce_to_votes": 1.0348825886708513,
+    "brier_to_votes": 0.213915521182918,
+    "jaccard": 0.6725898692810457,
+    "set_recall": 0.8370098039215685,
+    "set_size": 1.5159313725490196,
+    "max_prob": 0.5280339320500692
+   }
+  }
+ },
+ "L-A@ep60": {
+  "mean": {
+   "actor_correct": 0.5947990543735224,
+   "in_listener_plurality": 0.3924349881796691,
+   "ce_to_votes": 2.488117265278803,
+   "brier_to_votes": 0.45330308102842753,
+   "jaccard": 0.3717809298660362,
+   "set_recall": 0.45555555555555555,
+   "set_size": 1.6354609929078014,
+   "max_prob": 0.6333067814509074,
+   "ece_vs_actor": 0.06642126455092824,
+   "awareness_rho_maxprob_vs_listener_share": 0.07034202981787299
+  },
+  "groups": {
+   "low": {
+    "n": 152.0,
+    "actor_correct": 0.5614035087719298,
+    "in_listener_plurality": 0.425438596491228,
+    "ce_to_votes": 2.8771360395764254,
+    "brier_to_votes": 0.3651957201616061,
+    "jaccard": 0.3250365497076024,
+    "set_recall": 0.3753654970760234,
+    "set_size": 1.6710526315789476,
+    "max_prob": 0.6244916121164957
+   },
+   "mid": {
+    "n": 281.0,
+    "actor_correct": 0.6061684460260973,
+    "in_listener_plurality": 0.3487544483985765,
+    "ce_to_votes": 2.612080708299437,
+    "brier_to_votes": 0.410958111311077,
+    "jaccard": 0.36455120601028074,
+    "set_recall": 0.43752471332542503,
+    "set_size": 1.6571767497034402,
+    "max_prob": 0.6246521472930908
+   },
+   "high": {
+    "n": 272.0,
+    "actor_correct": 0.6017156862745098,
+    "in_listener_plurality": 0.41911764705882354,
+    "ce_to_votes": 2.1426592462271974,
+    "brier_to_votes": 0.5462856374340612,
+    "jaccard": 0.4053717320261438,
+    "set_recall": 0.5189950980392157,
+    "set_size": 1.5931372549019607,
+    "max_prob": 0.6471738815307617
+   }
+  }
+ },
+ "L-B@ep60": {
+  "mean": {
+   "actor_correct": 0.3229314420803783,
+   "in_listener_plurality": 0.6695035460992907,
+   "ce_to_votes": 1.5037546776231532,
+   "brier_to_votes": 0.21940876273878243,
+   "jaccard": 0.5566745468873129,
+   "set_recall": 0.6270291568163908,
+   "set_size": 1.433096926713948,
+   "max_prob": 0.67359725634257,
+   "ece_vs_actor": 0.3511345510928061,
+   "awareness_rho_maxprob_vs_listener_share": 0.25159325928033516
+  },
+  "groups": {
+   "low": {
+    "n": 152.0,
+    "actor_correct": 0.2280701754385965,
+    "in_listener_plurality": 0.5131578947368421,
+    "ce_to_votes": 2.084321385517564,
+    "brier_to_votes": 0.26144221887941566,
+    "jaccard": 0.3955409356725146,
+    "set_recall": 0.4276315789473684,
+    "set_size": 1.462719298245614,
+    "max_prob": 0.6286749442418417
+   },
+   "mid": {
+    "n": 281.0,
+    "actor_correct": 0.23843416370106763,
+    "in_listener_plurality": 0.6310794780545669,
+    "ce_to_votes": 1.660340275635141,
+    "brier_to_votes": 0.22705749092156713,
+    "jaccard": 0.48566627125345985,
+    "set_recall": 0.55357848952155,
+    "set_size": 1.5088967971530247,
+    "max_prob": 0.6515255769093832
+   },
+   "high": {
+    "n": 272.0,
+    "actor_correct": 0.463235294117647,
+    "in_listener_plurality": 0.7965686274509803,
+    "ce_to_votes": 1.0175536017359506,
+    "brier_to_votes": 0.18801766732430172,
+    "jaccard": 0.7200776143790849,
+    "set_recall": 0.8143382352941178,
+    "set_size": 1.338235294117647,
+    "max_prob": 0.7215028603871664
+   }
+  }
+ },
+ "L-C@ep60": {
+  "mean": {
+   "actor_correct": 0.3044917257683215,
+   "in_listener_plurality": 0.6699763593380613,
+   "ce_to_votes": 1.33869909281415,
+   "brier_to_votes": 0.17051361812135302,
+   "jaccard": 0.5684791174152876,
+   "set_recall": 0.6788022064617808,
+   "set_size": 1.643498817966903,
+   "max_prob": 0.48952119549115497,
+   "ece_vs_actor": 0.19196286450886557,
+   "awareness_rho_maxprob_vs_listener_share": 0.2814517390326714
+  },
+  "groups": {
+   "low": {
+    "n": 152.0,
+    "actor_correct": 0.1973684210526316,
+    "in_listener_plurality": 0.5043859649122807,
+    "ce_to_votes": 1.700423837856787,
+    "brier_to_votes": 0.12912742665886204,
+    "jaccard": 0.4692982456140351,
+    "set_recall": 0.5248538011695906,
+    "set_size": 1.7719298245614035,
+    "max_prob": 0.45033063491185504
+   },
+   "mid": {
+    "n": 281.0,
+    "actor_correct": 0.2313167259786477,
+    "in_listener_plurality": 0.641755634638197,
+    "ce_to_votes": 1.4349120096746606,
+    "brier_to_votes": 0.14981230964712844,
+    "jaccard": 0.5233293792012653,
+    "set_recall": 0.6083432186635034,
+    "set_size": 1.6820877817319098,
+    "max_prob": 0.4716886381308238
+   },
+   "high": {
+    "n": 272.0,
+    "actor_correct": 0.43995098039215685,
+    "in_listener_plurality": 0.7916666666666666,
+    "ce_to_votes": 1.037162361621928,
+    "brier_to_votes": 0.21502747394324917,
+    "jaccard": 0.6705473856209151,
+    "set_recall": 0.8376225490196078,
+    "set_size": 1.5318627450980393,
+    "max_prob": 0.5298443635304769
+   }
+  }
+ },
+ "P0 uniform": {
+  "mean": {
+   "actor_correct": 0.1773049645390071,
+   "in_listener_plurality": 0.18439716312056736,
+   "ce_to_votes": 1.7917594692280547,
+   "brier_to_votes": 0.3514371593827015,
+   "jaccard": 0.3132387706855792,
+   "set_recall": 1.0,
+   "set_size": 6.0,
+   "max_prob": 0.16666666666666666,
+   "ece_vs_actor": 0.010638297872340441,
+   "awareness_rho_maxprob_vs_listener_share": NaN
+  },
+  "groups": {
+   "low": {
+    "n": 152.0,
+    "actor_correct": 0.20394736842105263,
+    "in_listener_plurality": 0.19736842105263158,
+    "ce_to_votes": 1.7917594692280545,
+    "brier_to_votes": 0.14424762686154805,
+    "jaccard": 0.44188596491228066,
+    "set_recall": 1.0,
+    "set_size": 6.0,
+    "max_prob": 0.16666666666666669
+   },
+   "mid": {
+    "n": 281.0,
+    "actor_correct": 0.14590747330960854,
+    "in_listener_plurality": 0.1494661921708185,
+    "ce_to_votes": 1.791759469228055,
+    "brier_to_votes": 0.2734582208666532,
+    "jaccard": 0.3440094899169632,
+    "set_recall": 1.0,
+    "set_size": 6.0,
+    "max_prob": 0.16666666666666666
+   },
+   "high": {
+    "n": 272.0,
+    "actor_correct": 0.1948529411764706,
+    "in_listener_plurality": 0.21323529411764705,
+    "ce_to_votes": 1.791759469228055,
+    "brier_to_votes": 0.5477786691849988,
+    "jaccard": 0.20955882352941177,
+    "set_recall": 1.0,
+    "set_size": 6.0,
+    "max_prob": 0.16666666666666666
+   }
+  }
+ },
+ "P1 vote prior": {
+  "mean": {
+   "actor_correct": 0.11347517730496454,
+   "in_listener_plurality": 0.526241134751773,
+   "ce_to_votes": 1.620946534113602,
+   "brier_to_votes": 0.2822495099993061,
+   "jaccard": 0.4115839243498817,
+   "set_recall": 0.4115839243498817,
+   "set_size": 1.0,
+   "max_prob": 0.4294224789465719,
+   "ece_vs_actor": 0.31594730164160734,
+   "awareness_rho_maxprob_vs_listener_share": NaN
+  },
+  "groups": {
+   "low": {
+    "n": 152.0,
+    "actor_correct": 0.039473684210526314,
+    "in_listener_plurality": 0.47368421052631576,
+    "ce_to_votes": 1.7557999873389885,
+    "brier_to_votes": 0.14070848237787068,
+    "jaccard": 0.31798245614035087,
+    "set_recall": 0.31798245614035087,
+    "set_size": 1.0,
+    "max_prob": 0.42942247894657193
+   },
+   "mid": {
+    "n": 281.0,
+    "actor_correct": 0.06761565836298933,
+    "in_listener_plurality": 0.5266903914590747,
+    "ce_to_votes": 1.658823114189431,
+    "brier_to_votes": 0.22001405594408263,
+    "jaccard": 0.36061684460260973,
+    "set_recall": 0.36061684460260973,
+    "set_size": 1.0,
+    "max_prob": 0.4294224789465719
+   },
+   "high": {
+    "n": 272.0,
+    "actor_correct": 0.20220588235294118,
+    "in_listener_plurality": 0.5551470588235294,
+    "ce_to_votes": 1.5064574021593127,
+    "brier_to_votes": 0.42564068201392363,
+    "jaccard": 0.5165441176470589,
+    "set_recall": 0.5165441176470589,
+    "set_size": 1.0,
+    "max_prob": 0.42942247894657193
+   }
+  }
+ }
+}

@@ -1,0 +1,148 @@
+{
+  "scope": "post-hoc saved-prediction sensitivity check; no retraining or new independent test",
+  "manifest_sha256": "5dd3af80cd76f37dc153fe70fad9f0877e0f07c20476303ccd3160bb1cbd65be",
+  "prediction_sha256": "252def6cdfe13474ce2e061a4ad6b7b7dc97a8d389f31e172ba29825ce2d8fd6",
+  "estimand": "Equal-weight actor accuracy; average seeds within actor, then paired actor bootstrap.",
+  "subsets": {
+    "all_queries": {
+      "n_queries": 1421,
+      "n_actors": 18,
+      "conditions": {
+        "A": {
+          "actor_accuracy_percent": 54.74773702621803,
+          "sample_accuracy_percent": 54.75017593244195
+        },
+        "B": {
+          "actor_accuracy_percent": 54.42076285958143,
+          "sample_accuracy_percent": 54.421768707483
+        },
+        "D2": {
+          "actor_accuracy_percent": 56.48538834192842,
+          "sample_accuracy_percent": 56.48604269293924
+        },
+        "D3": {
+          "actor_accuracy_percent": 56.413862742976676,
+          "sample_accuracy_percent": 56.415669716162334
+        }
+      },
+      "paired": {
+        "D2_minus_B": {
+          "difference_pp": 2.0646254823470014,
+          "actor_bootstrap_95_pp": [
+            0.12081214612860308,
+            3.914719246997728
+          ],
+          "n_actors": 18,
+          "bootstrap_repetitions": 5000,
+          "bootstrap_seed": 20261108
+        },
+        "D3_minus_B": {
+          "difference_pp": 1.9930998833952416,
+          "actor_bootstrap_95_pp": [
+            0.21041448784064826,
+            3.6568364047266986
+          ],
+          "n_actors": 18,
+          "bootstrap_repetitions": 5000,
+          "bootstrap_seed": 20261108
+        }
+      }
+    },
+    "shared_sentence": {
+      "n_queries": 270,
+      "n_actors": 18,
+      "conditions": {
+        "A": {
+          "actor_accuracy_percent": 58.76543209876544,
+          "sample_accuracy_percent": 58.76543209876544
+        },
+        "B": {
+          "actor_accuracy_percent": 59.62962962962962,
+          "sample_accuracy_percent": 59.62962962962963
+        },
+        "D2": {
+          "actor_accuracy_percent": 60.0,
+          "sample_accuracy_percent": 60.0
+        },
+        "D3": {
+          "actor_accuracy_percent": 61.358024691358025,
+          "sample_accuracy_percent": 61.358024691358025
+        }
+      },
+      "paired": {
+        "D2_minus_B": {
+          "difference_pp": 0.3703703703703709,
+          "actor_bootstrap_95_pp": [
+            -2.225308641975309,
+            3.0864197530864206
+          ],
+          "n_actors": 18,
+          "bootstrap_repetitions": 5000,
+          "bootstrap_seed": 20261108
+        },
+        "D3_minus_B": {
+          "difference_pp": 1.7283950617283952,
+          "actor_bootstrap_95_pp": [
+            -1.1111111111111112,
+            4.691358024691358
+          ],
+          "n_actors": 18,
+          "bootstrap_repetitions": 5000,
+          "bootstrap_seed": 20261108
+        }
+      }
+    },
+    "nonshared_sentence": {
+      "n_queries": 1151,
+      "n_actors": 18,
+      "conditions": {
+        "A": {
+          "actor_accuracy_percent": 53.80291005291006,
+          "sample_accuracy_percent": 53.80828265276571
+        },
+        "B": {
+          "actor_accuracy_percent": 53.19710831863609,
+          "sample_accuracy_percent": 53.200115841297425
+        },
+        "D2": {
+          "actor_accuracy_percent": 55.660273368606695,
+          "sample_accuracy_percent": 55.66174341152621
+        },
+        "D3": {
+          "actor_accuracy_percent": 55.25196575543797,
+          "sample_accuracy_percent": 55.25629887054735
+        }
+      },
+      "paired": {
+        "D2_minus_B": {
+          "difference_pp": 2.4631650499706064,
+          "actor_bootstrap_95_pp": [
+            0.495480599647267,
+            4.344043944738389
+          ],
+          "n_actors": 18,
+          "bootstrap_repetitions": 5000,
+          "bootstrap_seed": 20261108
+        },
+        "D3_minus_B": {
+          "difference_pp": 2.0548574368018815,
+          "actor_bootstrap_95_pp": [
+            0.3472222222222229,
+            3.675227807172251
+          ],
+          "n_actors": 18,
+          "bootstrap_repetitions": 5000,
+          "bootstrap_seed": 20261108
+        }
+      }
+    }
+  },
+  "checks_passed": [
+    "manifest_prediction_alignment",
+    "unique_queries",
+    "no_enrollment_query_overlap",
+    "complete_disjoint_sentence_partition",
+    "per_seed_correct_count_reconstruction",
+    "original_actor_average_estimator_reproduced"
+  ]
+}

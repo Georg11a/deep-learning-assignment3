@@ -1,0 +1,194 @@
+{
+  "val": {
+    "paired_actor_differences": {
+      "D3_minus_B": {
+        "mean_pp": 3.7184748473113274,
+        "actor_bootstrap_95_pp": [
+          1.5002344116268107,
+          6.015708790114888
+        ],
+        "n_actors": 9,
+        "bootstrap_repetitions": 5000
+      },
+      "D3_minus_A": {
+        "mean_pp": 2.3473273863424713,
+        "actor_bootstrap_95_pp": [
+          0.14377781631119546,
+          4.363267376966007
+        ],
+        "n_actors": 9,
+        "bootstrap_repetitions": 5000
+      },
+      "D3_minus_D2": {
+        "mean_pp": 2.344116268166899,
+        "actor_bootstrap_95_pp": [
+          0.8438818565400803,
+          4.313173933427093
+        ],
+        "n_actors": 9,
+        "bootstrap_repetitions": 5000
+      },
+      "D2_matched_minus_mismatched": {
+        "mean_pp": 1.0189520194722197,
+        "actor_bootstrap_95_pp": [
+          -0.48757618377871703,
+          2.763180034551632
+        ],
+        "n_actors": 9,
+        "bootstrap_repetitions": 5000
+      },
+      "D3_matched_minus_mismatched": {
+        "mean_pp": 8.05964973122941,
+        "actor_bootstrap_95_pp": [
+          5.25074658497582,
+          10.97049303508468
+        ],
+        "n_actors": 9,
+        "bootstrap_repetitions": 5000
+      }
+    },
+    "loudness_neutral_sad_correlations": {
+      "A": {
+        "rho": -0.10924755488608233,
+        "actor_bootstrap_95": [
+          -0.8139214557636054,
+          0.7248553452605361
+        ],
+        "valid_bootstrap_draws": 4999,
+        "n_actors": 9
+      },
+      "B": {
+        "rho": 0.10127393670836667,
+        "actor_bootstrap_95": [
+          -0.7029594915666376,
+          0.7841877207009782
+        ],
+        "valid_bootstrap_draws": 5000,
+        "n_actors": 9
+      },
+      "D2": {
+        "rho": 0.22689876784032484,
+        "actor_bootstrap_95": [
+          -0.5966252301828019,
+          0.8973308911365364
+        ],
+        "valid_bootstrap_draws": 4999,
+        "n_actors": 9
+      },
+      "D3": {
+        "rho": 0.15126584522688322,
+        "actor_bootstrap_95": [
+          -0.60835870412704,
+          0.7557303602608708
+        ],
+        "valid_bootstrap_draws": 4999,
+        "n_actors": 9
+      },
+      "listener_sad_vote_fraction": {
+        "rho": -0.1,
+        "actor_bootstrap_95": [
+          -0.8215068922305764,
+          0.6923076923076923
+        ],
+        "valid_bootstrap_draws": 5000,
+        "n_actors": 9
+      }
+    }
+  },
+  "test": {
+    "paired_actor_differences": {
+      "D3_minus_B": {
+        "mean_pp": 1.9930998833952436,
+        "actor_bootstrap_95_pp": [
+          0.2104144878406495,
+          3.6568364047266995
+        ],
+        "n_actors": 18,
+        "bootstrap_repetitions": 5000
+      },
+      "D3_minus_A": {
+        "mean_pp": 1.66612571675863,
+        "actor_bootstrap_95_pp": [
+          0.11896390060947101,
+          3.3093061415846172
+        ],
+        "n_actors": 18,
+        "bootstrap_repetitions": 5000
+      },
+      "D3_minus_D2": {
+        "mean_pp": -0.07152559895175678,
+        "actor_bootstrap_95_pp": [
+          -1.1732602449902017,
+          1.125175808720116
+        ],
+        "n_actors": 18,
+        "bootstrap_repetitions": 5000
+      },
+      "D2_matched_minus_mismatched": {
+        "mean_pp": 2.6186783992691156,
+        "actor_bootstrap_95_pp": [
+          0.8276563645761924,
+          4.5061608183971025
+        ],
+        "n_actors": 18,
+        "bootstrap_repetitions": 5000
+      },
+      "D3_matched_minus_mismatched": {
+        "mean_pp": 3.776731941288906,
+        "actor_bootstrap_95_pp": [
+          2.2436799019077545,
+          5.336331097407043
+        ],
+        "n_actors": 18,
+        "bootstrap_repetitions": 5000
+      }
+    },
+    "loudness_neutral_sad_correlations": {
+      "A": {
+        "rho": -0.5982575680722221,
+        "actor_bootstrap_95": [
+          -0.8495166624425967,
+          -0.17641408462746896
+        ],
+        "valid_bootstrap_draws": 5000,
+        "n_actors": 18
+      },
+      "B": {
+        "rho": -0.37371983515949175,
+        "actor_bootstrap_95": [
+          -0.7260598592292281,
+          0.10831590414344314
+        ],
+        "valid_bootstrap_draws": 5000,
+        "n_actors": 18
+      },
+      "D2": {
+        "rho": -0.09091623862286104,
+        "actor_bootstrap_95": [
+          -0.5285053854756974,
+          0.40069480236959826
+        ],
+        "valid_bootstrap_draws": 5000,
+        "n_actors": 18
+      },
+      "D3": {
+        "rho": -0.165112249453012,
+        "actor_bootstrap_95": [
+          -0.5681560679312258,
+          0.31458644238936334
+        ],
+        "valid_bootstrap_draws": 5000,
+        "n_actors": 18
+      },
+      "listener_sad_vote_fraction": {
+        "rho": -0.6091895494325233,
+        "actor_bootstrap_95": [
+          -0.8199241649398722,
+          -0.23527401496876382
+        ],
+        "valid_bootstrap_draws": 5000,
+        "n_actors": 18
+      }
+    }
+  }
+}

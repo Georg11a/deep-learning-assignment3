@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+data/crema/
+data/hw3_perturbed.npz
+**/gain-features.npz
+hw3/reproduction*/
+hw3/level_tradeoff/reproduction*/
+hw3/personal_reference/reproduction*/
+

@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-07",
+  "command": "python scripts/verify_results.py",
+  "checkpoints_verified": 42,
+  "pilot_checkpoints": 18,
+  "level_branch_checkpoints": 12,
+  "personal_reference_checkpoints": 12,
+  "changed_top1_predictions": 0,
+  "personal_mismatch_evaluations_verified": 30,
+  "frozen_source_data_and_model_hashes_passed": true,
+  "enrollment_query_disjoint": true,
+  "speaker_splits_disjoint": true,
+  "scope": "Checkpoint inference verified against stored predictions in the original release; earlier pilot training was not rerun in packaging. Personal-reference training was executed for 12 models. Raw-waveform gain experiments were not repeated during packaging.",
+  "review_update": {
+    "date": "2026-11-07",
+    "command": "python hw3/personal_reference/sentence_overlap_check.py",
+    "analysis_type": "post-hoc saved-prediction subset check; no retraining",
+    "shared_sentence_queries": 270,
+    "nonshared_sentence_queries": 1151,
+    "checks_passed": [
+      "manifest_prediction_alignment",
+      "unique_queries",
+      "no_enrollment_query_overlap",
+      "complete_disjoint_sentence_partition",
+      "per_seed_correct_count_reconstruction",
+      "original_actor_average_estimator_reproduced"
+    ],
+    "full_checkpoint_verifier_rerun_passed": true,
+    "posthoc_sentence_overlap_check_verified": true,
+    "unchanged_experimental_files_vs_original_release": 68
+  }
+}

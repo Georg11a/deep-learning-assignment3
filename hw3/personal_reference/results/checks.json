@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "speaker_disjoint",
+    "enrollment_query_disjoint",
+    "three_enrollment_each",
+    "unchanged_other_columns",
+    "B_zero_segment_mean",
+    "query_cannot_change_reference",
+    "reference_is_person_specific",
+    "wrong_reference_no_self_match"
+  ]
+}

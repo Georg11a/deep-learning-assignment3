@@ -1,0 +1,30 @@
+{
+  "C_selected_minus_A_accuracy": {
+    "mean_difference_pp": 0.2937853107344633,
+    "descriptive_actor_bootstrap_95_pp": [
+      -1.3324299909665762,
+      1.8770105990445227
+    ]
+  },
+  "C_selected_minus_A_HAP_recall": {
+    "mean_difference_pp": -1.455026455026455,
+    "descriptive_actor_bootstrap_95_pp": [
+      -3.835978835978836,
+      1.1904761904761907
+    ]
+  },
+  "C_selected_minus_B_accuracy": {
+    "mean_difference_pp": 0.519774011299435,
+    "descriptive_actor_bootstrap_95_pp": [
+      -0.5197828270051897,
+      1.4679562261724313
+    ]
+  },
+  "C_selected_minus_B_HAP_recall": {
+    "mean_difference_pp": 4.761904761904762,
+    "descriptive_actor_bootstrap_95_pp": [
+      2.2486772486772493,
+      7.2751322751322745
+    ]
+  }
+}
